@@ -1,0 +1,35 @@
+.tcards{
+    margin-top: 3em;
+    margin-left: 11em;
+    margin-right: 11em;
+  }
+  #myUL{
+    margin-top: 10.5em;
+    margin-left: 11em;
+    margin-right: 11em;
+    list-style-type: none;
+  }
+  .per{
+    float:left;
+    width:33.33%;
+  }
+div.polaroid {
+    width: 20em;
+    height: 26em;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  .polimg{
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+  }
+  
+  div.container {
+    text-align: center;
+  
+    
+    padding: 10px 20px;
+  }
+ 

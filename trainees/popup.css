@@ -1,0 +1,74 @@
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0.7;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    display: none;
+
+  }
+  .modal-content{
+    width:400px;
+    height:400px;
+    background:linear-gradient(to bottom,#86d669,#30a306);
+    border-radius:4px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  
+
+  }
+  .pic{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+  }
+  .report{
+    width:50%;
+    display:block;
+    margin:15px auto;
+  }
+  .LBL{
+    margin-top: 30px !important;
+  
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+  }
+  .close{
+    position: absolute;
+    top:0;
+    right:14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+
+  }
+  .rbtn{
+    margin-top: 30px !important;
+    border:2px solid #003e29;
+    padding:10px 20px;
+    color:#003e29;
+    background: rgb(227, 217, 17);
+   
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    transition: 0.8s;
+    border-radius: 5px;
+    box-shadow: 2px 2px #666;
+    
+
+  }
+  .rbtn:hover{
+    background:  rgb(172, 221, 121);
+    color:#003e29 ;
+    box-shadow: 0 5px black;
+   
+  }

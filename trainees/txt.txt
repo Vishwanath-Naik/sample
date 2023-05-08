@@ -1,0 +1,8 @@
+mrpl internship
+=============
+color details:
+bg of full page :  background:linear-gradient(to bottom,#c6eec3,#f5f8f5,#c6eec3);
+dark divs:#003e29;
+yellow:rgb(227, 217, 17)
+light green :#30a306;
+white and black

@@ -1,0 +1,208 @@
+html{
+
+    /*background-image: linear-gradient(to right, #ABE098 , #ABE098);*/
+    background-color: #D3F8D3;
+  }
+.nav{
+ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top:0;
+    height:120px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65) ), url(./image/bgimg2.jpg);
+    background-position: center;
+background-size: cover;
+background-position: center;
+   /* background-color: #ABE098   rgb(202, 223, 188);*/
+    /*background-image: url(./image/bgimg3.jpg);
+    /*filter:blur(2px);
+    background-blend-mode: darken;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+}
+.logo{
+float:left;
+
+margin-left: 1em;
+position: absolute;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+.compname{
+float:left;
+margin-left: 7em;
+margin-bottom: 15px;
+}
+.traineetext
+{
+float:left;
+margin-top: 28px;
+margin-right: 1em;
+}
+#maintext-hindi
+{
+color:white/* #2c3e50*/;
+font-weight: bold;
+font-size: 1.3em;
+line-height: 1.42857143;
+font-family: "Pragati Narrow", Helvetica, sans-serif;
+}
+#maintext
+{
+color: white;
+font-weight: bold;
+font-size: 20px;
+line-height: 1.42857143;
+font-family: "Voltaire", Helvetica, sans-serif;
+}
+#subtext
+{
+color: white;
+font-size: 12px;
+line-height: 1.42857143;
+font-weight: bold;
+font-family: "FuturaPTW01-Book", Helvetica, sans-serif !important;
+}
+#righttext
+{
+color: white;
+font-size: 20px;
+font-weight: bold;
+font-family: "Voltaire", Helvetica, sans-serif;
+}
+#maintext-hindi:hover
+{
+color: azure;
+}
+#maintext:hover
+{
+color: azure;
+}
+#subtext:hover
+{
+color: azure;
+}
+#righttext:hover
+{
+color: azure;
+}
+.logg{
+  margin-top: 0.5em;
+  width: 100%;
+  height: 3em;
+  background:linear-gradient(to right,#003e29, #D3F8D3,#003e29);
+  padding: 2px;
+  }  
+  .bb1{
+      position: absolute;
+      margin-left: 1.5em;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 13px;
+      padding-right: 13px;
+      margin-top: 0.3em;
+      background-color:rgb(227, 217, 17) ;
+      border-radius: 4.5px;
+      text-align: center;
+      font-size: 15px;
+      font-family: 'Rubik', sans-serif;
+   
+     
+  }
+  .bb1:hover {background-color:#86bc72}
+
+.bb1:active {
+  background-color: #86bc72;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+  .bb2{
+  
+      position: absolute;
+      margin-left: 93.2em;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 13px;
+      padding-right: 13px;
+      margin-top: 0.3em;
+      background-color:rgb(227, 217, 17) ;
+      border-radius: 4.5px;
+      text-align: center;
+      font-size: 15px;
+      font-family: 'Rubik', sans-serif;
+  }
+  .bb2:hover {background-color:#86bc72}
+
+.bb2:active {
+  background-color: #86bc72;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.srow{
+    width :100%;
+    margin-top: 3em;
+    margin-left: 12em;
+    margin-right: 12em;
+    align-items: center;
+}
+
+.myInput {
+    background-image: url('./image/searchicon.png');
+    float:left;
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width:20%;
+    
+    margin-right: 0.7em;
+    
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  .j2
+  {
+    color:#003e29;
+    text-shadow: 2px 2px 4px #000000;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  margin-top: 4em;
+  }
+  .tcards{
+    margin-top: 3em;
+  }
+  #myUL{
+    margin-top: 10.5em;
+    margin-left: 11em;
+    margin-right: 11em;
+    list-style-type: none;
+
+  }
+  .per{
+    float:left;
+    width:33.33%;
+  }
+  div.polaroid {
+    width: 20em;
+    height: 25em;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  .polimg{
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
